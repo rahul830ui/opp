@@ -10,6 +10,7 @@ var config = {
     database: 'QRIREPORTING',
     dialect: "mssql",
     dialectOptions: {
+        encrypt : false,
         "instanceName": "SQLEXPRESS"
 },
 };
