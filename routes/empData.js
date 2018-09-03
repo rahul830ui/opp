@@ -9,7 +9,8 @@ var config = {
     server: 'QRIITSQLDBW01\\QRIITSQLDB',
     database: 'QRIREPORTING',
     options: {
-        encrypt : false
+        encrypt : false,
+        "instanceName": "MSSQLSERVER "
     }
 };
 
