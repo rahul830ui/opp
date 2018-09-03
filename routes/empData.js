@@ -10,7 +10,7 @@ var config = {
     database: 'QRIREPORTING',
     options: {
         encrypt : false,
-        "instanceName": "MSSQLSERVER "
+        "instanceName": "SQL2012"
     }
 };
 
