@@ -8,10 +8,10 @@ var config = {
     password: 'aP99adr%%M',
     server: 'QRIITSQLDBW01\\QRIITSQLDB',
     database: 'QRIREPORTING',
-    options: {
-        encrypt : false,
-        "instanceName": "SQL2012"
-    }
+    dialect: "mssql",
+    dialectOptions: {
+        "instanceName": "SQLEXPRESS"
+},
 };
 
 
